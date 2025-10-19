@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('hellowapp.urls')),
+    path('', include('hellow.urls')),
 ]
 
 # Serve static files during development

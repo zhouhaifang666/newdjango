@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hellowapp',
+    'hellow',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +120,7 @@ STATIC_URL = 'static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = [
-    BASE_DIR / "hellowapp/static",
+    BASE_DIR / "hellow/static",
 ]
 
 # Static files root directory

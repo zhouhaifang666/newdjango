@@ -6,7 +6,7 @@ import os
 
 # Create your views here.
 def index(request):
-    return render(request, "hellowapp/index.html")
+    return render(request, "hellow/index.html")
 
 # The texts are much longer in reality, but have
 # been shortened here to save space
