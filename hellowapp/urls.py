@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.hello_world, name='hello_world'),
+    path("", views.index, name="index"),
+    path("sections/<int:num>", views.section, name="section")
 ]
